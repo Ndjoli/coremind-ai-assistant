@@ -62,9 +62,4 @@ streamlit run app.py
 
 ---
 
-## 📷 App Preview
-
-(./6b11ab60-fd9e-4cf8-8c09-45461012aef9.png)
-
----
 
