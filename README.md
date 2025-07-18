@@ -64,17 +64,7 @@ streamlit run app.py
 
 ## 📷 App Preview
 
-![App Preview](./6b11ab60-fd9e-4cf8-8c09-45461012aef9.png)
+(./6b11ab60-fd9e-4cf8-8c09-45461012aef9.png)
 
 ---
 
-## 👤 Creator
-
-Built by **Iloyeka Ndjoli**  
-GitHub: [@Ndjoli](https://github.com/Ndjoli)
-
----
-
-## 🛡️ License
-
-MIT License – use freely, contribute, and improve it!
