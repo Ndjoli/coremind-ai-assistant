@@ -3,6 +3,7 @@ openai
 python-dotenv
 langchain
 langchain-openai
+langchain-community
 PyPDF2
 pymupdf
 pandas
