@@ -14,7 +14,7 @@ CoreMind turns your company files into a smart Q&A assistant.
 - Ask questions about the content (e.g. _“What does our leave policy say?”_)
 - Get accurate answers powered by GPT and semantic search
 - Supports multiple document formats and large file sizes
-- Great for onboarding, internal knowledge access, and operations
+- Great for onboarding, internal knowledge access, and operations.
 
 ---
 
