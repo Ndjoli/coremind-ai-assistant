@@ -1,77 +1,80 @@
-# 🧠 CoreMind
+# 🧠 CoreMind – Your Company Knowledge Assistant
 
-**Your Company Knowledge Assistant**
+![App Preview](./6b11ab60-fd9e-4cf8-8c09-45461012aef9.png)
 
-CoreMind is an internal AI-powered knowledge assistant designed to help organizations quickly find answers from internal documentation. Upload your company documents (PDF, DOCX, TXT, XLSX), ask natural language questions, and get instant, AI-generated responses — powered by GPT and FAISS.
-
-![CoreMind Preview](coremind_preview.png)
+CoreMind is an internal AI-powered assistant designed to help teams instantly find information from company documents. Whether it's onboarding manuals, HR policies, or internal SOPs — just upload your file and ask questions in natural language. The app returns direct, intelligent answers pulled from the uploaded content.
 
 ---
 
-## 🚀 Features
+## 💼 What the App Does
 
-- 📄 Supports PDF, DOCX, TXT, and Excel (XLSX) document uploads
-- 💡 Asks and answers company-specific questions from uploaded documents
-- 🧠 Powered by OpenAI's GPT-3.5 and FAISS vector search
-- 🔍 Semantic document chunking and intelligent retrieval
-- ✅ Clean, intuitive Streamlit interface with drag-and-drop upload
+CoreMind turns your company files into a smart Q&A assistant.
 
----
-
-## 🛠️ How It Works
-
-1. **Upload documents** (e.g. company policies, onboarding docs, knowledge bases)
-2. CoreMind extracts and splits the content into searchable chunks
-3. AI embeddings are generated using OpenAI Embeddings
-4. A FAISS vector store indexes the data
-5. Users ask questions in natural language
-6. The app retrieves the most relevant chunks and feeds them to GPT for an answer
+- Upload files (PDF, DOCX, TXT, XLSX)
+- Ask questions about the content (e.g. _“What does our leave policy say?”_)
+- Get accurate answers powered by GPT and semantic search
+- Supports multiple document formats and large file sizes
+- Great for onboarding, internal knowledge access, and operations
 
 ---
 
-## 📂 Tech Stack
+## ⚙️ Features
 
-- **Python**
-- **Streamlit** – for the front-end
-- **LangChain** – for retrieval and chaining logic
-- **OpenAI** – for embeddings and language modeling
-- **FAISS** – for fast vector similarity search
-- **PyMuPDF / Python-docx / openpyxl** – for document handling
-
----
-
-## 🧪 Example Use Cases
-
-- "What does our remote work policy say?"
-- "How many leave days are employees entitled to?"
-- "When is the next Ocean Innovation Summit?"
+✅ Upload documents (PDF, DOCX, TXT, XLSX)  
+✅ Extracts and processes text using LangChain  
+✅ Splits text into chunks for semantic vector search (FAISS)  
+✅ Uses OpenAI Embeddings + GPT-3.5 for question answering  
+✅ Beautiful UI with custom background  
+✅ Secure API key handling with Streamlit secrets  
+✅ Excel support for tabular policy docs and HR data  
 
 ---
 
-## 🔐 Setup
+## 🧱 Tech Stack
 
-1. Install dependencies:
+- `Python`
+- `Streamlit`
+- `LangChain`
+- `FAISS`
+- `OpenAI GPT (via langchain-openai)`
+- `PyPDF2`, `pandas`, and `python-docx` for parsing
+
+---
+
+## 🚀 How to Run It Locally
 
 ```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/coremind-ai-assistant.git
+cd coremind-ai-assistant
+
+# 2. Install dependencies
 pip install -r requirements.txt
-```
 
-2. Add your OpenAI API key:
+# 3. Add your OpenAI key to .streamlit/secrets.toml
+# Example secrets.toml
+[OPENAI_API_KEY]
+OPENAI_API_KEY = "sk-..."
 
-Create a `.env` file in the root folder with the following:
-
-```
-OPENAI_API_KEY=your_api_key_here
+# 4. Run the app
+streamlit run app.py
 ```
 
 ---
 
-## 👨‍💻 Built By
+## 📷 App Preview
 
-**Iloyeka Ndjoli** · Powered by GPT + FAISS · CoreMind AI Edition
+![App Preview](./6b11ab60-fd9e-4cf8-8c09-45461012aef9.png)
 
 ---
 
-## 📸 Preview
+## 👤 Creator
 
-![CoreMind Preview](coremind_preview.png)
+Built by **Iloyeka Ndjoli**  
+GitHub: [@Ndjoli](https://github.com/Ndjoli)
+
+---
+
+## 🛡️ License
+
+MIT License – use freely, contribute, and improve it!
