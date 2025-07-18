@@ -81,5 +81,5 @@ You can test the app with files inside the `sample_docs/` folder:
 ---
 
 ## 📸 Screenshot
-![CoreMind Preview]()
+![CoreMind Preview](Screenshot 2025-07-18 121458.png)
 
