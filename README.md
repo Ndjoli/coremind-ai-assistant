@@ -81,14 +81,5 @@ You can test the app with files inside the `sample_docs/` folder:
 ---
 
 ## 📸 Screenshot
-
-
-
----
-
-## 👤 Author
-
-**Iloyeka Arman Ndjoli**  
-Prompt Engineer | Data Analyst | AI Agent Developer  
-[LinkedIn](https://www.linkedin.com/in/arman-ndjoli97) • [GitHub](https://github.com/Ndjoli)
+![CoreMind Preview](coremind_preview.png)
 
